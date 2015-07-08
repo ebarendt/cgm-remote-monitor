@@ -6,7 +6,6 @@ var consts = require('./lib/constants');
 var fs = require('fs');
 // Module to constrain all config and environment parsing to one spot.
 function config ( ) {
-
   /*
    * First inspect a bunch of environment variables:
    *   * PORT - serve http on this port
